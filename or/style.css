@@ -5,3 +5,7 @@ body{
 img {
     cursor: pointer;
 }
+
+#sw1 {
+    float: left;
+}
