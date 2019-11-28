@@ -5,6 +5,41 @@
 body{
     font-family:Sans-serif;
 }
+header{
+    max-width:1112px;
+    margin:0 auto;
+    height:128px;
+}
+.Logo{
+    height:96px;
+    padding:15px;
+    display:inline-block;
+}
+.Logo img{
+    height:100%;
+}
+.Hamburguer{
+    display:none;
+}
+.Menu{
+    float:right;
+    padding-top:52px;
+}
+.Menu ul{
+    list-style:none;
+}
+.Menu ul li{
+    float:left;
+}
+.Menu ul li a{
+    text-decoration:none;
+    color:#000000;
+    padding:15px;
+}
+.Menu ul li a:hover{
+    color:#FF0000;
+    transition:.5s all;
+}
 .Layout{
     background-image:url("imagens/background.jpg");
     height:320px;
@@ -22,7 +57,21 @@ body{
 .Modulo{
     padding:150px 0px 150px 0px;
     margin:0 auto;
-    max-width:1024px;
+    max-width:1112px;
+    text-align:center;
+}
+.Destaque{
+    list-style:none; /*Remover bullets*/
+    overflow:auto; /* corrigir o comportamento do float*/
+}
+.Destaque li{
+    float:left;
+    padding:10px;
+}
+.Destaque img{
+    border:#E8E8E8 1px solid;
+    cursor:pointer;
+
 }
 footer{
     background-color:#8b0000;

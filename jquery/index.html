@@ -7,9 +7,24 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css">
     <title>Jquery</title>
+    <script src="jquery-3.4.1.min.js"></script>
 </head>
 
 <body>
+    <header>
+        <div class="Logo">
+            <a href="#"><img src="imagens/logo.png" alt="Logo"></a>
+        </div>
+        <a class="Hamburguer" href="#">&#9776;</a>
+        <nav class="Menu">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Conteúdo</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
     <div class="Layout">
         <p>Francisley Guerhardt</p>
     </div>
@@ -28,13 +43,22 @@
         <p>Neste site você</p>
     </div>
     <div class="Modulo">
-        <h2>Destaque 3</h2>
-        <p>Texto</p>
+        <h2>
+            <!-- ul>li*4>img:s -->
+            <ul class="Destaque">
+                <li><img src="imagens/tux1.png" alt="tux1"></li>
+                <li><img src="imagens/tux2.png" alt="tux"></li>
+                <li><img src="imagens/tux3.png" alt="tux3"></li>
+                <li><img src="imagens/tux4.png" alt="tux4"></li>
+            </ul>
+        </h2>
+        <p></p>
     </div>
     <footer>
         <p>© Francisley Guerhardt</p>
     </footer>
     <a href="#"><img src="imagens/topo.png" alt="topo" id="top"></a>
+    <script src="topo.js"></script>
+    <script src="efeito.js"></script>
 </body>
-
 </html>
