@@ -1,0 +1,15 @@
+Dica: prototipação
+draw.io
+
+Parallax:
+https://matthew.wagerfield.com/parallax/
+
+Curriculo criativo:
+http://www.rleonardi.com/interactive-resume/
+_______________________________________________
+Plugin:
+Soluções (JS, CSS e HTML) prontas com o objetivo
+de escrever menos código.
+
+Ex: jqueryvalidation
+https://jqueryvalidation.org/
